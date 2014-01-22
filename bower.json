@@ -1,0 +1,7 @@
+{
+  "name": "puppet-server",
+  "version": "1.0.0",
+  "dependencies": {
+    "bower_puppet_server": "https://github.com/TomiTakussaari/bower_puppet_server.git#~0.6.1"
+  }
+}
