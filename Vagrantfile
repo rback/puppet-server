@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu-12.04-x64"
+  config.vm.box = "centos-6.5-x86_64"
   config.vm.box_url = "http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210.box"
   config.vm.host_name = "puppetmaster.local"
   config.vm.network :private_network, ip: "33.33.33.10"
